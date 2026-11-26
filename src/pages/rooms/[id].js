@@ -10,7 +10,7 @@ const roomData = {
     sharing: "Private Room",
     image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200",
     description:
-      "Enjoy your own private space at Apna Aashiyana. This room is designed for students and working professionals who prefer privacy, comfort and a peaceful environment.",
+      "Enjoy your own private space at Crossing PG. This room is designed for students and working professionals who prefer privacy, comfort and a peaceful environment.",
     facilities: [
       "Private bed",
       "Wardrobe",
@@ -78,14 +78,17 @@ export default function RoomDetails() {
   return (
     <>
       <Head>
-        <title>{room.name} | Apna Aashiyana</title>
+        <title>{room.name} | Crossing PG</title>
         <meta name="description" content={room.description} />
       </Head>
 
       <div className="details-page">
         <header className="details-header">
           <Link href="/" className="details-logo">
-            Apna <strong>Aashiyana</strong>
+            <img
+              src="/images/crossing-pg-logo.jpg"
+              alt="Crossing PG"
+            />
           </Link>
           <Link href="/#rooms" className="back-link">
             ← Back to Rooms
@@ -141,7 +144,7 @@ export default function RoomDetails() {
                 <h2>About This Room</h2>
                 <p>{room.description}</p>
                 <p>
-                  Contact Apna Aashiyana directly to confirm the current
+                  Contact Crossing PG directly to confirm the current
                   availability, room condition, facilities and booking terms.
                 </p>
               </section>
