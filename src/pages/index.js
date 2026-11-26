@@ -48,8 +48,8 @@ const facilities = [
 
 const faqs = [
   {
-    q: "Where is Apna Aashiyana located?",
-    a: "Apna Aashiyana is located in Noida, Uttar Pradesh. Contact us for the exact property address.",
+    q: "Where is Crossing PG located?",
+    a: "Crossing PG is located in Noida, Uttar Pradesh. Contact us for the exact property address.",
   },
   {
     q: "What room options are available?",
@@ -93,10 +93,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Apna Aashiyana | Comfortable PG Accommodation in Noida</title>
+        <title>Crossing PG | Comfortable PG Accommodation in Noida</title>
         <meta
           name="description"
-          content="Explore Apna Aashiyana, a comfortable PG accommodation in Noida. Discover rooms, facilities and booking information."
+          content="Explore Crossing PG, a comfortable PG accommodation in Noida. Discover rooms, facilities and booking information."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -104,11 +104,11 @@ export default function Home() {
       <header className="site-header">
         <div className="container navbar">
           <a className="brand" href="#home">
-            <span className="brand-icon">A</span>
-            <span>
-              Apna <strong>Aashiyana</strong>
-              <small>Your Space. Your Comfort.</small>
-            </span>
+            <img
+              className="brand-logo"
+              src="/images/crossing-pg-logo.jpg"
+              alt="Crossing PG"
+            />
           </a>
 
           <nav className="nav-links">
@@ -131,7 +131,7 @@ export default function Home() {
         <section className="hero" id="home">
           <div className="hero-overlay">
             <div className="container hero-content">
-              <span className="eyebrow">WELCOME TO APNA AASHIYANA</span>
+              <span className="eyebrow">WELCOME TO CROSSING PG</span>
               <h1>
                 A Better Place
                 <br />
@@ -192,7 +192,7 @@ export default function Home() {
                 />
               </div>
               <div className="about-tag">
-                <strong>Apna Aashiyana</strong>
+                <strong>Crossing PG</strong>
                 <span>Your home away from home</span>
               </div>
             </div>
@@ -201,11 +201,11 @@ export default function Home() {
               <span className="section-label">ABOUT OUR PROPERTY</span>
               <h2>
                 More Than A Room,
-                <span> It's Your Aashiyana.</span>
+                <span> It's Your Crossing PG.</span>
               </h2>
               <p>
                 Finding a comfortable place to stay is an important part of
-                everyday life. Apna Aashiyana aims to provide a welcoming,
+                everyday life. Crossing PG aims to provide a welcoming,
                 convenient and comfortable PG experience in Noida.
               </p>
               <p>
@@ -231,7 +231,7 @@ export default function Home() {
             <div className="section-heading">
               <span className="section-label">OUR ACCOMMODATION</span>
               <h2>Find A Room That <span>Fits You</span></h2>
-              <p>Explore the room options at Apna Aashiyana.</p>
+              <p>Explore the room options at Crossing PG.</p>
             </div>
 
             <div className="room-filters">
@@ -313,7 +313,7 @@ export default function Home() {
         <section className="why-section">
           <div className="container why-grid">
             <div>
-              <span className="section-label light-label">WHY APNA AASHIYANA</span>
+              <span className="section-label light-label">WHY CROSSING PG</span>
               <h2>A Comfortable Stay Starts With The Right Place.</h2>
               <p>
                 We want your stay to be comfortable, convenient and simple.
@@ -358,7 +358,7 @@ export default function Home() {
             <span className="section-label">A PLACE TO FEEL AT HOME</span>
             <h2>Your Comfort Is Our <span>Priority.</span></h2>
             <p>
-              We look forward to welcoming you to Apna Aashiyana. Visit the
+              We look forward to welcoming you to Crossing PG. Visit the
               property, explore the rooms and speak with our team before
               booking.
             </p>
@@ -403,7 +403,7 @@ export default function Home() {
               <span className="section-label">GET IN TOUCH</span>
               <h2>Let's Find Your <span>New Space.</span></h2>
               <p>
-                Interested in staying at Apna Aashiyana? Send us your details
+                Interested in staying at Crossing PG? Send us your details
                 and room preference. Our team can contact you with further
                 information.
               </p>
@@ -411,7 +411,7 @@ export default function Home() {
                 <span>📍</span><div><strong>Our Location</strong><p>Noida, Uttar Pradesh, India</p></div>
               </div>
               <div className="contact-detail">
-                <span>🏠</span><div><strong>Property</strong><p>Apna Aashiyana PG</p></div>
+                <span>🏠</span><div><strong>Property</strong><p>Crossing PG</p></div>
               </div>
               <div className="contact-detail">
                 <span>🕒</span><div><strong>Property Visits</strong><p>Contact us to arrange a visit</p></div>
@@ -483,8 +483,11 @@ export default function Home() {
         <div className="container footer-grid">
           <div>
             <a className="brand footer-brand" href="#home">
-              <span className="brand-icon">A</span>
-              <span>Apna <strong>Aashiyana</strong><small>Your Space. Your Comfort.</small></span>
+              <img
+                className="brand-logo footer-logo"
+                src="/images/crossing-pg-logo.jpg"
+                alt="Crossing PG"
+              />
             </a>
             <p>
               A comfortable PG accommodation experience in Noida for students
@@ -512,7 +515,7 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-bottom">
-          © {new Date().getFullYear()} Apna Aashiyana. All Rights Reserved.
+          © {new Date().getFullYear()} Crossing PG. All Rights Reserved.
         </div>
       </footer>
     </>
